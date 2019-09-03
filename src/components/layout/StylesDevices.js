@@ -1,7 +1,8 @@
     
 // colors: BA73F2, ac53f2, 663399, #8A2BE2
 
-export const colorRoxo = "#8A2BE2";
+export const colorPrimaria = "#c02323";
+export const colorSecundaria = "#f77807";
 
 const sizeTamanhoTela = {
   mobileS: "320px",

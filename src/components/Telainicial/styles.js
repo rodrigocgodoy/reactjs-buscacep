@@ -2,7 +2,7 @@
 import styled from "styled-components";
 // import styled, { css } from "styled-components";
 
-import { colorRoxo, device } from "../layout/StylesDevices";
+import { colorPrimaria, colorSecundaria, device } from "../layout/StylesDevices";
 
 export const Container = styled.div`
   display: grid;
@@ -42,8 +42,8 @@ export const Input = styled.input`
   background: transparent;
   border: none;
   border-radius: 3px 0 0 3px;
-  border: 2px solid ${colorRoxo};
-  color: ${colorRoxo};
+  border: 2px solid ${colorPrimaria};
+  color: ${colorPrimaria};
   font-weight: bolder;
   font-size: 15px;
   height: 34px;
@@ -51,7 +51,7 @@ export const Input = styled.input`
   padding-left: 10px;
   &&::placeholder {
     font-size: 15px;
-    color: ${colorRoxo};
+    color: ${colorPrimaria};
   }
   &&:hover {
     outline: none;
@@ -81,7 +81,7 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   /* padding-top: 500px; */
-  background-color: ${colorRoxo};
+  background-color: ${colorPrimaria};
   border-radius: 0 3px 3px 0;
   border: none;
   color: #fff;
@@ -91,7 +91,7 @@ export const Button = styled.button`
   font-size: 14px;
   cursor: pointer;
   &&:hover {
-    background-color: ${colorRoxo};
+    background-color: ${colorPrimaria};
     opacity: 0.8;
   }
 `;
